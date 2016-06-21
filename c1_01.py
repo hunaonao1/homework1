@@ -1,5 +1,5 @@
-# import requests
-# from bs4 import BeautifulSoup
+import requests
+from bs4 import BeautifulSoup
 import random
 import re
 def qiushibaike():
@@ -195,6 +195,7 @@ def demo_re():
 
 if __name__ == '__main__':
     print 'hello songying'
+    qiushibaike()
     #demo_string()
     #demo_peration()
     #demo_buildinfunction()
@@ -211,4 +212,4 @@ if __name__ == '__main__':
     demo_exception()
     '''
     #demo_random()
-    demo_re()
+    #demo_re()
