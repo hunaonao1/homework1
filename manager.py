@@ -5,7 +5,7 @@ manager=Manager(app)
 
 @manager.option('-n','--name',dest='name',default='songying')
 
-@manager.command
+#@manager.command
 def hello(name):
     print 'hello',name
 
